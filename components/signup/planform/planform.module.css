@@ -1,0 +1,269 @@
+.frameChild {
+    position: absolute;
+    top: 275px;
+    left: 210px;
+    border-radius: var(--br-xl);
+    background: linear-gradient(
+      180deg,
+      rgba(122, 130, 150, 0.9),
+      rgba(94, 98, 104, 0.9) 68.75%,
+      rgba(0, 0, 0, 0.9)
+    );
+    box-shadow: 0 4px 36px 8px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    height: 555px;
+  }
+  .monthly {
+    position: absolute;
+    top: 295px;
+    left: 363px;
+    font-size: 28.67px;
+  }
+  .rs200month {
+    position: absolute;
+    top: 551px;
+    left: 336px;
+    font-weight: 800;
+    background: linear-gradient(107.74deg, #fff, rgba(255, 255, 255, 0)),
+      linear-gradient(
+        95.22deg,
+        #5e5e5e,
+        rgba(36, 41, 41, 0.86) 19.27%,
+        rgba(193, 193, 193, 0.59) 45.28%,
+        rgba(8, 24, 26, 0)
+      ),
+      #c1a875;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .pResolution {
+    position: absolute;
+    top: 621px;
+    left: 342px;
+  }
+  .streamingTvApp1Icon {
+    position: absolute;
+    top: 386px;
+    left: 337px;
+    width: 136px;
+    height: 136px;
+    object-fit: cover;
+  }
+  .frameItem {
+    position: absolute;
+    top: 275px;
+    left: 990px;
+    border-radius: var(--br-xl);
+    background: linear-gradient(
+      180deg,
+      rgba(122, 130, 150, 0.9),
+      rgba(94, 98, 104, 0.9) 68.75%,
+      rgba(0, 0, 0, 0.9)
+    );
+    box-shadow: 0 4px 36px 8px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    height: 555px;
+  }
+  .chooseYourPlan {
+    position: absolute;
+    top: 37px;
+    left: calc(50% - 314px);
+    font-size: 64.67px;
+  }
+  .frameInner {
+    position: absolute;
+    top: 178px;
+    left: 600px;
+    border-radius: var(--br-xl);
+    background: linear-gradient(
+      180deg,
+      rgba(122, 130, 150, 0.9),
+      rgba(94, 98, 104, 0.9) 68.75%,
+      rgba(0, 0, 0, 0.9)
+    );
+    box-shadow: 0 4px 29px 8px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    height: 691px;
+  }
+  .logoIcon011 {
+    position: absolute;
+    top: 41px;
+    left: 206px;
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+  }
+  .ellipseDiv {
+    position: absolute;
+    top: 631px;
+    left: 312px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 10px;
+    height: 10px;
+  }
+  .halfYearly,
+  .yearly {
+    position: absolute;
+    top: 199px;
+    left: 724px;
+    font-size: 28.67px;
+  }
+  .yearly {
+    top: 295px;
+    left: 1148px;
+  }
+  .p {
+    text-decoration: line-through;
+  }
+  .p,
+  .rs9606months1 {
+    margin: 0;
+  }
+  .rs14401year,
+  .rs9606months {
+    position: absolute;
+    top: 446px;
+    left: 714px;
+    font-weight: 800;
+    background: linear-gradient(107.74deg, #fff, rgba(255, 255, 255, 0)),
+      linear-gradient(
+        95.22deg,
+        #5e5e5e,
+        rgba(36, 41, 41, 0.86) 19.27%,
+        rgba(193, 193, 193, 0.59) 45.28%,
+        rgba(8, 24, 26, 0)
+      ),
+      #c1a875;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  .rs14401year {
+    top: 542px;
+    left: 1124px;
+  }
+  .buffering,
+  .liveStreaming,
+  .pResolution1 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+  }
+  .buffering,
+  .liveStreaming {
+    top: 38px;
+  }
+  .liveStreaming {
+    top: 76px;
+  }
+  .groupChild,
+  .groupInner,
+  .groupItem {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 10px;
+    height: 10px;
+  }
+  .groupInner,
+  .groupItem {
+    top: 48px;
+  }
+  .groupInner {
+    top: 86px;
+  }
+  .pResolutionGroup,
+  .pResolutionParent {
+    position: absolute;
+    top: 525px;
+    left: 702px;
+    width: 195px;
+    height: 106px;
+  }
+  .pResolutionGroup {
+    top: 621px;
+    left: 1092px;
+  }
+  .watching1Icon,
+  .watchingAMovie1Icon {
+    position: absolute;
+    top: 269px;
+    left: 720px;
+    width: 152px;
+    height: 152px;
+    object-fit: cover;
+  }
+  .watching1Icon {
+    top: 386px;
+    left: 1128px;
+    width: 136px;
+    height: 136px;
+  }
+  .choose,
+  .chooseWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .chooseWrapper {
+    top: 767px;
+    left: 1149px;
+    width: 86px;
+    height: 31px;
+    font-size: 20.67px;
+  }
+  .rectangleDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    box-shadow: 0 3.2911391258239746px 3.29px rgba(0, 0, 0, 0.25);
+    width: 260px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: white;
+    height: 52.66px;
+    cursor: pointer;
+  }
+  .subscribe {
+    position: absolute;
+    top: 11px;
+    left: 76px;
+    cursor: pointer;
+    color:#0f0f0f;
+  }
+  .groupDiv,
+  .rectangleContainer,
+  .rectangleGroup {
+    position: absolute;
+    top: 749px;
+    left: 280px;
+    width: 260px;
+    height: 52.66px;
+    font-size: 20.67px;
+    color: var(--color-gray);
+  }
+  .groupDiv,
+  .rectangleContainer {
+    left: 1060px;
+  }
+  .groupDiv {
+    top: 686px;
+    left: 666px;
+  }
+  .rectangleParent {
+    position: relative;
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 1114px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  
