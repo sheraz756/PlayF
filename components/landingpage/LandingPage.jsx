@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import styles from './landingpage.module.scss';
-
+import Plan from '../../components/signup/planform/Plans'
 const LandingPage = () => {
     const year = new Date().getFullYear();
     const router = useRouter();
@@ -99,8 +99,8 @@ const LandingPage = () => {
 
             </section>
 
-
-            <section className={styles.categories}>
+        <Plan />
+            {/* <section className={styles.categories}>
                 <h4 className={styles.h4__heading}>Our Plan</h4>
                 <div className={styles.text__xl}>Monthly Pricing</div>
 
@@ -110,21 +110,10 @@ const LandingPage = () => {
                         <p class="card__info">Amount : <b className='ammountLanding'>Rs 200</b></p>
                         <p class="card__info">Video Quality : HD movies</p>
                     </div>
-                    {/* <div className='landingcard'>
-                        <h3 class="card__header">Pack 2</h3>
-                        <p class="card__info">Monthly Price : <b className='ammountLanding'>Rs 300</b></p>
-                        <p class="card__info">Video Quality : Better</p>
-                        <p class="card__info">Features : HD plus Movies</p>
-                    </div>
-                    <div className='landingcard'>
-                        <h3 class="card__header">Pack 3</h3>
-                        <p class="card__info">Monthly Price : <b className='ammountLanding'>Rs 400</b></p>
-                        <p class="card__info">Video Quality : Best</p>
-                        <p class="card__info">Features : HD plus Movies + Originals</p>
-                    </div> */}
+           
 
                 </div>
-            </section>
+            </section> */}
 
             <footer className={styles.footer}>
                 <div className={styles.footer__container}>
@@ -161,6 +150,7 @@ const LandingPage = () => {
                             <li><Link href="/terms&condtion">Terms & Conditions</Link></li>
                             <li><Link href="/faqs">Faqs</Link></li>
                             <li><Link href="/contact">Contact</Link></li>
+                        
                         </ul>
                     </div>
                 </div>
